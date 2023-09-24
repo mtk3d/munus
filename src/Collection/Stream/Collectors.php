@@ -13,7 +13,7 @@ use Munus\Tuple;
 final class Collectors
 {
     /**
-     * @template T
+     * @template T of Collector
      *
      * @return Collector<T,GenericList>
      */
